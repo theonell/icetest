@@ -1,0 +1,52 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.ice-design-layout-dark.ice-design-layout {
+  background-color: #2e323f;
+  background-image: url(https://img.alicdn.com/tfs/TB1_YvwXTtYBeNjy1XdXXXXyVXa-1680-370.png);
+}
+
+/*滚动条样式*/
+.ice-layout-aside-primary::-webkit-scrollbar, .next-balloon-primary::-webkit-scrollbar {/*滚动条整体样式*/
+  width: 4px;     /*高宽分别对应横竖滚动条的尺寸*/
+  height: 4px;
+}
+.ice-layout-aside-primary::-webkit-scrollbar-track, .next-balloon-primary::-webkit-scrollbar-track {/*滚动条里面轨道*/
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  border-radius: 0;
+  background: rgba(0,0,0,0.1);
+}
+.ice-layout-aside-primary::-webkit-scrollbar-thumb, .next-balloon-primary::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.2);
+}
+
+.ice-design-layout-dark {
+  &.ice-design-layout {
+    min-height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .ice-layout {
+    width: 100%;
+    min-height: 100vh;
+    background: transparent;
+  }
+
+  .ice-layout-main {
+    width: 85%;
+    padding: 0 20px;
+  }
+}
+
+// .aside {
+//   width: 204px;
+// }
+
+// .main {
+//   width: 85%;
+// }

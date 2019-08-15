@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": "/home/theone/Desktop/arkcontrol_web",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}

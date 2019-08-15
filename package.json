@@ -1,0 +1,106 @@
+{
+  "name": "@icedesign/pro-scaffold",
+  "version": "2.3.0",
+  "description": "ArkControl 是极数云舟自主研发的统一数据库云管平台，可以作为企业数据 库私有云或者企业数据库自动化运维平台使用，它集成了数据库运维过程的所 需要解决的多种功能，实现使用一个平台解决企业对数据库的所有需求的目标。",
+  "files": [
+    "src/",
+    "build/",
+    "public/",
+    "tests/",
+    "_gitignore",
+    ".editorconfig",
+    ".eslintignore",
+    ".eslintrc"
+  ],
+  "dependencies": {
+    "@alifd/next": "^1.x",
+    "@antv/data-set": "^0.9.5",
+    "@icedesign/balloon-confirm": "^1.0.4",
+    "@icedesign/container": "^1.x",
+    "@icedesign/data-binder": "^1.x",
+    "@icedesign/dynamic-icon": "^0.1.8",
+    "@icedesign/ellipsis": "^1.x",
+    "@icedesign/form-binder": "^1.0.3",
+    "@icedesign/foundation-symbol": "^1.0.0",
+    "@icedesign/img": "^1.0.0",
+    "@icedesign/label": "^1.x",
+    "@icedesign/layout": "^1.x",
+    "@icedesign/theme": "^0.x",
+    "@icedesign/title": "^1.0.2",
+    "axios": "^0.17.1",
+    "bizcharts": "^3.2.2",
+    "bizgoblin": "0.0.1",
+    "classnames": "^2.2.5",
+    "echarts": "^4.2.1",
+    "enquire-js": "^0.1.2",
+    "history": "^4.7.2",
+    "hoist-non-react-statics": "^2.5.5",
+    "immutable": "^4.0.0-rc.12",
+    "intl": "^1.2.5",
+    "invariant": "^2.2.4",
+    "is-hotkey": "^0.1.4",
+    "lodash": "^4.17.10",
+    "moment": "^2.23.0",
+    "node-sass": "^4.12.0",
+    "path-to-regexp": "^2.2.1",
+    "prop-types": "^15.5.8",
+    "react": "^16.2.0",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^16.4.1",
+    "react-intl": "^2.8.0",
+    "react-markdown": "^4.0.8",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "5.0.0-alpha.6",
+    "react-vcode": "^1.0.4",
+    "redux": "3.6.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "happypack": "^5.0.1",
+    "ice-plugin-css-assets-local": "^0.1.1",
+    "ice-plugin-fusion": "^0.1.4",
+    "ice-plugin-moment-locales": "^0.1.0",
+    "ice-scripts": "^2.0.2",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "standard-version": "^6.0.1",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack-parallel-uglify-plugin": "^1.1.1"
+  },
+  "scripts": {
+    "start": "ice-scripts dev",
+    "build": "ice-scripts build",
+    "lint": "eslint . --ext '.js,.jsx' --fix",
+    "release": "standard-version",
+    "dll": "webpack --mode production --config build/webpack.dll.config.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scaffoldConfig": {
+    "builder": "ice-scripts",
+    "name": "ice-design-pro",
+    "title": "ICE Design Pro",
+    "categories": [
+      "基础模板"
+    ],
+    "screenshot": "https://img.alicdn.com/tfs/TB1xYm7w9zqK1RjSZPcXXbTepXa-2872-1580.png",
+    "defaultLayout": "BasicLayout"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "title": "arkcontrol_web",
+  "iceworks": {
+    "adapter": "adapter-react-v2"
+  }
+}

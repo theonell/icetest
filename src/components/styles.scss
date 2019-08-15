@@ -1,0 +1,31 @@
+.slowquery-chart {
+  width: 25%;
+  height: 260px;
+  min-width: 100px;
+}
+
+.nodata {
+  canvas:first-child {
+    margin-left: -30px !important;
+  } 
+}
+
+.slowquery-line {
+  width: 40%;
+  height: 260px;
+  min-width: 100px;
+  position: relative;
+}
+
+.slowquery-line-big {
+  width: 100%;
+  height: 260px;
+  min-width: 100px;
+  position: relative;
+}
+
+.chart-select {
+  position: absolute;
+  right: 10%;
+  top: -10%;
+}

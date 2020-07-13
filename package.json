@@ -72,7 +72,7 @@
     "ice-plugin-moment-locales": "^0.1.0",
     "ice-scripts": "^2.0.2",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "standard-version": "^6.0.1",
+    "standard-version": "^8.0.1",
     "uglifyjs-webpack-plugin": "^2.1.3",
     "webpack-parallel-uglify-plugin": "^1.1.1"
   },
